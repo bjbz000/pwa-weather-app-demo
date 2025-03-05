@@ -21,6 +21,6 @@
   "lang": "en",
   "name": "PWA Weather App",
   "short_name": "PWA",
-  "start_url": "http://localhost:3000/",
-  "scope": "http://localhost:3000/"
+  "start_url": "/",
+  "scope": "/"
 }
