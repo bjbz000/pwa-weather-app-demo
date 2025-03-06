@@ -12,8 +12,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "PWA Weather App",
-  description: "A simple weather app built with Next.js",
+  title: "Weather App(PWA)",
+  description:
+    "A simple weather app built with Next.js for Progressive Web App Demo",
   manifest: "/manifest.json",
   icons: [
     {
