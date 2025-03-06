@@ -111,6 +111,20 @@ Next time you open it without the internet → The Service Worker loads the save
 
 - When the user reopens the app, the new version replaces the old one.
 
+## 2.  Is There a Fixed Storage Size for PWA Cache?
+
+Yes, browsers limit storage for PWAs, but the exact limit depends on the device and browser.
+
+- Chrome:	~6% of available disk space
+
+- Firefox:	~10% of available disk space
+
+- Safari: (iOS & macOS)	50MB hard limit
+
+- Edge:	Similar to Chrome (~6%)
+
+- Opera:	Similar to Chrome (~6%)
+
 ### 2. Can PWAs use phone features like GPS, camera, or Bluetooth?
 
 Yes! PWAs can access:
