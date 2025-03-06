@@ -111,7 +111,7 @@ Next time you open it without the internet → The Service Worker loads the save
 
 - When the user reopens the app, the new version replaces the old one.
 
-## 2.  Is There a Fixed Storage Size for PWA Cache?
+### 2.  Is There a Fixed Storage Size for PWA Cache?
 
 Yes, browsers limit storage for PWAs, but the exact limit depends on the device and browser.
 
@@ -125,7 +125,7 @@ Yes, browsers limit storage for PWAs, but the exact limit depends on the device 
 
 - Opera:	Similar to Chrome (~6%)
 
-### 2. Can PWAs use phone features like GPS, camera, or Bluetooth?
+### 3. Can PWAs use phone features like GPS, camera, or Bluetooth?
 
 Yes! PWAs can access:
 
@@ -137,13 +137,13 @@ Yes! PWAs can access:
 
 ⚠️ But some features (Face ID, fingerprint scan) are not allowed.
 
-### 3. Do PWAs work on iOS and Android?
+### 4. Do PWAs work on iOS and Android?
 
 ✅ Android: Full PWA support (installable, push notifications, offline mode).
 
 ⚠️ iOS: Limited support (before iOS 16.4, no push notifications).
 
-### 4. Why Should Businesses Use PWAs?
+### 5. Why Should Businesses Use PWAs?
 
 - Lower Development Cost – No need for separate iOS/Android apps.
 
