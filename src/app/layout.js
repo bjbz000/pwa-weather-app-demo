@@ -15,6 +15,13 @@ export const metadata = {
   title: "PWA Weather App",
   description: "A simple weather app built with Next.js",
   manifest: "/manifest.json",
+  icons: [
+    {
+      rel: "icon",
+      type: "image/png",
+      url: "/icon-round.png",
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {
