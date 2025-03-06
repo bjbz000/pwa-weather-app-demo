@@ -19,8 +19,9 @@
   "display": "standalone",
   "dir": "auto",
   "lang": "en",
-  "name": "PWA Weather App",
-  "short_name": "PWA",
+  "name": "Weather App (PWA)",
+  "short_name": "Weather App",
+  "description": "A simple weather app",
   "start_url": "/",
   "scope": "/"
 }
