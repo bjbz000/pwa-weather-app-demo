@@ -137,13 +137,23 @@ Yes! PWAs can access:
 
 ⚠️ But some features (Face ID, fingerprint scan) are not allowed.
 
-### 4. Do PWAs work on iOS and Android?
+### 4. What Features Are Restricted?
+
+Some advanced hardware features cannot be accessed due to security and privacy concerns:
+
+- Face ID / Touch ID → No access to biometric authentication.
+
+- SMS / Call Logs → Cannot read SMS or call history.
+
+- File System Access → Limited file access compared to native apps.
+
+### 5. Do PWAs work on iOS and Android?
 
 ✅ Android: Full PWA support (installable, push notifications, offline mode).
 
 ⚠️ iOS: Limited support (before iOS 16.4, no push notifications).
 
-### 5. Why Should Businesses Use PWAs?
+### 6. Why Should Businesses Use PWAs?
 
 - Lower Development Cost – No need for separate iOS/Android apps.
 
