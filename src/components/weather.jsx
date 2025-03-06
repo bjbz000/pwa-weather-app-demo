@@ -48,22 +48,26 @@ const Weather = () => {
   return (
     <div className="container">
       <h2>Weather App</h2>
-      <input
-        type="text"
-        placeholder="Enter city name"
-        value={city}
-        onChange={(e) => setCity(e.target.value)}
-      />
-      <button onClick={fetchWeather}>Get Weather</button>
+      <div className="search">
+        <input
+          type="text"
+          placeholder="Enter city name"
+          value={city}
+          onChange={(e) => setCity(e.target.value)}
+        />
+        <button onClick={fetchWeather}>🔍</button>
+      </div>
       {error && <p className="error">{error}</p>}
       {weather && (
         <div className="weather-info">
-          <div className="weather-icon">
-            {getWeatherIcon(weather.weather[0].main)}
+          <div className="weather-title">
+            <h3>
+              {weather.name}, {weather.sys.country}
+            </h3>
+            <div className="weather-icon">
+              {getWeatherIcon(weather.weather[0].main)}
+            </div>
           </div>
-          <h3>
-            {weather.name}, {weather.sys.country}
-          </h3>
           <p>
             <strong>Temperature:</strong> {weather.main.temp}°C
           </p>

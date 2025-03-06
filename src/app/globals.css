@@ -7,8 +7,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100dvh;
+  height: 100svh;
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
@@ -25,26 +26,37 @@ h2 {
   color: #333;
 }
 
-input {
-  padding: 10px;
-  width: 80%;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* Adds spacing between input & button */
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
 }
 
-button {
-  padding: 10px 15px;
-  background: #007bff;
+.search input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Rounded left corners */
+  font-size: 1rem;
+  outline: none;
+}
+
+.search button {
+  padding: 10px;
+  border: 1px solid #ccc;
   color: white;
-  border: none;
-  border-radius: 5px;
+  font-size: 1rem;
   cursor: pointer;
+  border-radius: 5px; /* Rounded right corners */
   transition: background 0.3s;
 }
 
-button:hover {
-  background: #0056b3;
+.search button:hover {
+  transform: scale(1.1);
 }
 
 .error {
@@ -60,6 +72,11 @@ button:hover {
   font-size: 1.2rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.weather-title {
+  display: flex;
   align-items: center;
 }
 
