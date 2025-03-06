@@ -70,6 +70,7 @@ Next time you open it without the internet → The Service Worker loads the save
   [https://app-manifest.firebaseapp.com/](https://app-manifest.firebaseapp.com/)
 
 - How to add manifest.json in code:
+  
   ![alt text](image.png)
 
 - The manifest.json file should be in public folder in order to access it.
